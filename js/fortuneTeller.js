@@ -19,7 +19,7 @@ const yearsToMarriage = currentAge + userNumberInput;
 const numberOfChildren = currentAge % userNumberInput;
 const numberOfYearsToDyeHair = Math.round(currentAge / userNumberInput);
 
-// Concatinating the string
+// Concatenating the string
 const fortuneMessage = `In ${yearsToMeetBestFriend} years you are going to meet your friend named ${friendName}.\nYou will get married in ${yearsToMarriage} years and have ${numberOfChildren} children.\nIn ${numberOfYearsToDyeHair} years you are going to dye your hair ${favouriteColor}.`;
 
 // Outputing the fortune message
